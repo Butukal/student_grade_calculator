@@ -1,0 +1,60 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting background color */
+body {
+  background-color: #000;
+  color: #fff; /* Setting text color to white for better readability */
+}
+
+/* Centering the container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #111; /* Dark gray background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Increased shadow opacity */
+}
+
+/* Styling form elements */
+label {
+  display: block;
+  margin-top: 10px;
+  color: #fff; /* Setting label color to white */
+}
+
+input {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff; /* Keeping button color as blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling output area */
+.showdata {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #222; /* Darker gray background color */
+  border: 1px solid #444; /* Lighter border color */
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
